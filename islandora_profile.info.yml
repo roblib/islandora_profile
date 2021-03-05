@@ -1,0 +1,32 @@
+name: 'Islandora'
+type: profile
+description: 'Content types and workflows for islandora content.'
+core_version_requirement: '^8.0 || ^9'
+'base profile': lightning
+exclude:
+  - lightning_roles
+install:
+  - rdf
+  - responsive_image
+  - syslog
+  - serialization
+  - basic_auth
+  - rest
+  - simpletest
+  - restui
+  - devel
+  - search_api_solr
+  - facets
+  - content_browser
+  - matomo
+  - pdf
+  - admin_toolbar
+  - transliterate_filenames
+  - islandora_defaults
+  - controlled_access_terms_defaults
+  - islandora_defaults
+  - islandora_fits
+  - islandora_breadcrumbs
+  - islandora_iiif
+  - islandora_oaipmh
+  - islandora_search
