@@ -12,7 +12,6 @@ install:
   - serialization
   - basic_auth
   - rest
-  - simpletest
   - restui
   - devel
   - search_api_solr
