@@ -27,3 +27,6 @@ install:
   - islandora_iiif
   - islandora_oaipmh
   - islandora_search
+themes:
+  - bartik
+  - claro
