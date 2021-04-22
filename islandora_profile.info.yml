@@ -2,9 +2,7 @@ name: 'Islandora'
 type: profile
 description: 'Content types and workflows for islandora content.'
 core_version_requirement: '^8.0 || ^9'
-'base profile': lightning
-exclude:
-  - lightning_roles
+'base profile': standard
 install:
   - rdf
   - responsive_image
