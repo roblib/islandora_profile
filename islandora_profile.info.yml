@@ -1,6 +1,6 @@
 name: 'Islandora'
 type: profile
-description: 'Content types and workflows for islandora content.'
+description: 'Content types and workflows for an Islandora digital repository.'
 core_version_requirement: '^8.0 || ^9'
 install:
   - node

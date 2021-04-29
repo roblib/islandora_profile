@@ -1,6 +1,6 @@
 {
   "name":"roblib/islandora_profile",
-  "description":"Profile to represent islandora content in Drupal.",
+  "description":"Profile to represent an Islandora digital repository.",
   "type":"drupal-profile",
   "license":"GPL-2.0-or-later",
   "repositories":{
@@ -37,35 +37,5 @@
     "drupal/matomo": "^1.7",
     "islandora/openseadragon": "dev-8.x-1.x",
     "zaporylie/composer-drupal-optimizations": "^1.1"
-  },
-  "extra": {
-    "drupal-scaffold": {
-        "file-mapping": {
-            "[project-root]/.editorconfig": false,
-            "[project-root]/.gitattributes": false,
-            "[web-root]/.csslintrc": false,
-            "[web-root]/INSTALL.txt": false,
-            "[web-root]/example.gitignore": false,
-            "[web-root]/modules/README.txt": false,
-            "[web-root]/profiles/README.txt": false,
-            "[web-root]/robots.txt": false,
-            "[web-root]/sites/README.txt": false,
-            "[web-root]/themes/README.txt": false,
-            "[web-root]/web.config": false
-        },
-        "locations": {
-            "web-root": "web/"
-        }
-    },
-    "enable-patching": true,
-    "composer-exit-on-patch-failure": "true",
-    "patchLevel": {
-      "drupal/core": "-p2"
-    },
-    "patches": {
-      "drupal/core": {
-        "[subprofile support] 1356276 - Allow profiles to define a base/parent profile and load them in the correct order / 2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2020-12-15/3143958-6-subprofile-support-9.1.x.patch"
-      }
-    }
   }
 }
