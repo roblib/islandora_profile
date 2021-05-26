@@ -1,5 +1,5 @@
 {
-  "name":"roblib/islandora_profile",
+  "name":"islandora/islandora_profile",
   "description":"Profile to represent an Islandora digital repository.",
   "type":"drupal-profile",
   "license":"GPL-2.0-or-later",
