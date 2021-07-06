@@ -30,7 +30,7 @@
     "islandora-rdm/islandora_fits": "dev-8.x-1.x",
     "islandora/controlled_access_terms": "dev-8.x-1.x",
     "islandora/islandora": "dev-8.x-1.x",    
-"islandora/islandora_defaults": "dev-8.x-1.x",
+    "islandora/islandora_defaults": "dev-8.x-1.x",
     "drupal/admin_toolbar": "^2.0",
     "drupal/context": "^4.0@beta",
     "drupal/core-composer-scaffold": "^9.2",
