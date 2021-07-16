@@ -13,7 +13,6 @@
   "require":{
     "composer/installers": "^1.9",
     "drupal/content_browser": "^1.0@alpha",
-    "drupal/core": "^9.2",
     "drupal/facets": "^1.6",
     "drupal/features": "^3.11",
     "drupal/flysystem": "^2.0@alpha",
